@@ -1,0 +1,69 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@400;600&family=Patrick+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1385b9;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgb(241, 179, 221);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 10px rgba(198, 204, 121, 0.747);
+  padding: 20px 10px;
+  text-align: center;
+  max-width: 80%;
+  width: 600px;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 3px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+  font-family: "Architects Daughter", cursive;
+}
+
+.jokes {
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: 50px auto;
+  max-width: 600px;
+  font-family: "Architects Daughter", cursive;
+}
+
+.btn {
+  background-color: rgb(250, 52, 52);
+  color: rgb(0, 0, 0);
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 12px 30px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Architects Daughter", cursive;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: rgb(60, 206, 16);
+}
